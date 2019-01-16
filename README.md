@@ -1,5 +1,5 @@
 # My.WebApp-Tax-Calculator
-Asp.net core application to process some tax inputs and output to sql and mongo
+Asp.net core application to process some tax inputs and output to sql and mongo.
 
 Tech stack.
 1. Asp.net core 2.1 mvc 
