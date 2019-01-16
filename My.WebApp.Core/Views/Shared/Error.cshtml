@@ -1,0 +1,20 @@
+﻿@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">opps ze daisy :(</h1>
+<h2 class="text-danger">an error occurred while processing your request.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>request id:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>development mode</h3>
+<p>
+    i have set the error view to display on developer mode, see commented code in startup. Have a super day!
+</p>
+
